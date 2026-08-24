@@ -12,8 +12,11 @@
       "supportedTypes": ["movie", "tv"],
       "filename": "providers/teste.js",
       "enabled": true,
-      "formats": [],
-      "contentLanguage": ["pt"]
+      "formats": ["mp4"],
+      "contentLanguage": ["pt-br"],
+      "limited": false,
+      "disabledPlatforms": [],
+      "supportsExternalPlayer": true
     }
   ]
 }
