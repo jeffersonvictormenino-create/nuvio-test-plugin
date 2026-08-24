@@ -6,17 +6,26 @@
     {
       "id": "teste",
       "name": "Nuvio Teste",
-      "description": "Provider de teste para verificar o carregamento do plugin.",
+      "description": "Primeiro provider de teste.",
       "version": "1.0.0",
       "author": "Jefferson",
       "supportedTypes": ["movie", "tv"],
       "filename": "providers/teste.js",
       "enabled": true,
       "formats": ["mp4"],
-      "contentLanguage": ["pt-br"],
-      "limited": false,
-      "disabledPlatforms": [],
-      "supportsExternalPlayer": true
+      "contentLanguage": ["pt-br"]
+    },
+    {
+      "id": "teste2",
+      "name": "Nuvio Teste 2",
+      "description": "Segundo provider de teste.",
+      "version": "1.0.0",
+      "author": "Jefferson",
+      "supportedTypes": ["movie", "tv"],
+      "filename": "providers/teste2.js",
+      "enabled": true,
+      "formats": ["mp4"],
+      "contentLanguage": ["pt-br"]
     }
   ]
 }
