@@ -1,0 +1,19 @@
+{
+  "name": "Nuvio Test Plugin",
+  "version": "1.0.0",
+  "author": "Jefferson",
+  "scrapers": [
+    {
+      "id": "teste",
+      "name": "Nuvio Teste",
+      "description": "Provider de teste para verificar o carregamento do plugin.",
+      "version": "1.0.0",
+      "author": "Jefferson",
+      "supportedTypes": ["movie", "tv"],
+      "filename": "providers/teste.js",
+      "enabled": true,
+      "formats": [],
+      "contentLanguage": ["pt"]
+    }
+  ]
+}
