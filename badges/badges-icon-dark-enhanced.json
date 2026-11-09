@@ -2065,7 +2065,7 @@
       "textColor": "#FFFFFF",
       "borderColor": "#C90B20",
       "type": "filter",
-      "imageURL": "https://img.shields.io/badge/Claro%20tv%2B-DA291C?style=flat&labelColor=17191F&logo=claro&logoColor=white"
+      "imageURL": "https://img.shields.io/badge/Claro%20tv%2B-DA291C?style=flat&labelColor=17191F"
     },
     {
       "id": "vod-plutotv",
@@ -2078,7 +2078,7 @@
       "tagStyle": "filled",
       "isEnabled": true,
       "type": "filter",
-      "imageURL": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Pluto_TV_2020_logo.png"
+      "imageURL": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Pluto_TV_2020_logo.png"
     },
     {
       "id": "studio-warner",
