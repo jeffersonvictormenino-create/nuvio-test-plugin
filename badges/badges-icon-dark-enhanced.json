@@ -1223,45 +1223,6 @@
       "type": "filter"
     },
     {
-      "id": "vod-tubi",
-      "groupId": "streaming-service",
-      "name": "Tubi",
-      "pattern": "(?i)\\b(tubi|tubitv)\\b",
-      "imageURL": "https://img.shields.io/badge/-Tubi-C52F61?style=flat&labelColor=17191F",
-      "tagColor": "#17191F",
-      "borderColor": "#C52F61",
-      "textColor": "#FFFFFF",
-      "tagStyle": "filled",
-      "isEnabled": true,
-      "type": "filter"
-    },
-    {
-      "id": "vod-pluto",
-      "groupId": "streaming-service",
-      "name": "Pluto TV",
-      "pattern": "(?i)\\b(pluto|plutotv)\\b",
-      "imageURL": "https://img.shields.io/badge/-Pluto%20TV-6B4EFF?style=flat&labelColor=17191F",
-      "tagColor": "#17191F",
-      "borderColor": "#6B4EFF",
-      "textColor": "#FFFFFF",
-      "tagStyle": "filled",
-      "isEnabled": true,
-      "type": "filter"
-    },
-    {
-      "id": "vod-mubi",
-      "groupId": "streaming-service",
-      "name": "MUBI",
-      "pattern": "(?i)\\b(mubi)\\b",
-      "imageURL": "https://img.shields.io/badge/-MUBI-526A7C?style=flat&labelColor=17191F",
-      "tagColor": "#17191F",
-      "borderColor": "#526A7C",
-      "textColor": "#FFFFFF",
-      "tagStyle": "filled",
-      "isEnabled": true,
-      "type": "filter"
-    },
-    {
       "id": "flag-multi-audio",
       "groupId": "audio-subs",
       "name": "Multi-Audio",
@@ -2077,18 +2038,6 @@
       "tagStyle": "filled",
       "textColor": "#FFFFFF",
       "borderColor": "#C7A12B"
-    },
-    {
-      "id": "vod-looke",
-      "groupId": "streaming-service",
-      "name": "Looke",
-      "pattern": "(?i)\\b(looke)\\b",
-      "imageURL": "https://img.shields.io/badge/-Looke-1689D5?style=flat&labelColor=17191F",
-      "isEnabled": true,
-      "tagColor": "#17191F",
-      "tagStyle": "filled",
-      "textColor": "#FFFFFF",
-      "borderColor": "#1689D5"
     },
     {
       "id": "vod-claro",
