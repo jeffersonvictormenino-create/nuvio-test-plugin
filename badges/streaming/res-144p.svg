@@ -1,1 +1,17 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="112" height="44" viewBox="0 0 112 44"><rect x="1" y="1" width="110" height="42" rx="8" fill="#20242D" stroke="#7B8794" stroke-width="2"/><rect x="1" y="1" width="42" height="42" rx="7" fill="#66717E"/><text x="22" y="28" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="700" fill="#FFFFFF">144</text><text x="76" y="27" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="16" font-weight="700" fill="#FFFFFF">144p</text></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="180" height="72" viewBox="0 0 180 72">
+<defs>
+ <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#34445B"/><stop offset="1" stop-color="#171F2D"/></linearGradient>
+ <linearGradient id="orb" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#9AA9BB"/><stop offset="1" stop-color="#586A80"/></linearGradient>
+ <filter id="glow" x="-60%" y="-60%" width="220%" height="220%"><feGaussianBlur stdDeviation="5"/></filter>
+</defs>
+<rect x="2" y="3" width="176" height="66" rx="21" fill="#080D16" opacity=".42"/>
+<rect x="1" y="1" width="176" height="66" rx="21" fill="url(#bg)" stroke="#586779" stroke-width="1.5"/>
+<circle cx="34" cy="34" r="25" fill="#8295AA" opacity=".28" filter="url(#glow)"/>
+<circle cx="34" cy="34" r="21" fill="url(#orb)"/>
+<g fill="none" stroke="#F5F7FA" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round">
+ <rect x="22" y="24" width="24" height="17" rx="2.8"/>
+ <path d="M34 42v5m-7 0h14"/>
+</g>
+<text x="112" y="34" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="27" font-weight="800" fill="#F5F7FA">144p</text>
+<text x="112" y="52" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="10" font-weight="700" letter-spacing="2.1" fill="#BBC7D5">LOW</text>
+</svg>
