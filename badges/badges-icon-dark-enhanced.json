@@ -107,7 +107,7 @@
     {
       "id": "res-144p",
       "groupId": "resolution",
-      "name": "144p",
+      "name": "144p Low",
       "pattern": "(?i)\\b(144p|256[ ._-]?x[ ._-]?144)\\b",
       "imageURL": "https://raw.githubusercontent.com/jeffersonvictormenino-create/nuvio-test-plugin/main/badges/streaming/res-144p.svg",
       "tagColor": "#00000000",
