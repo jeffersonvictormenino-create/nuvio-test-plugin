@@ -6,7 +6,7 @@
     {
       "id": "teste",
       "name": "Nuvio Teste",
-      "description": "Provider experimental para testes com filmes e séries.",
+      "description": "Provider experimental com fontes MP4 estáticas para validar a integração de streams no Nuvio. Não realiza busca por título.",
       "version": "1.0.0",
       "author": "Jefferson",
       "supportedTypes": [
@@ -20,5 +20,5 @@
       ]
     }
   ],
-  "description": "Repositório experimental de plugins JavaScript para o Nuvio."
+  "description": "Repositório experimental de plugins JavaScript para o Nuvio, com um provider de demonstração e catálogo de badges."
 }
