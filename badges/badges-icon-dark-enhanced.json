@@ -1213,7 +1213,7 @@
       "id": "vod-crunchyroll",
       "groupId": "streaming-service",
       "name": "Crunchyroll",
-      "pattern": "(?i)\\b(crunchy[ ._-]?roll|crunchyroll|crunchyroll[ ._-]?originals?)\\b",
+      "pattern": "(?i)\\b(cr|crunchy[ ._-]?roll|crunchyroll|crunchyroll[ ._-]?originals?)\\b",
       "imageURL": "https://img.shields.io/badge/-Crunchyroll-F47521?style=flat&labelColor=17191F",
       "tagColor": "#17191F",
       "borderColor": "#F47521",
@@ -2050,6 +2050,19 @@
       "tagStyle": "filled",
       "textColor": "#FFFFFF",
       "borderColor": "#C90B20"
+    },
+    {
+      "id": "vod-plutotv",
+      "groupId": "streaming-service",
+      "name": "Pluto TV",
+      "pattern": "(?i)\\b(pluto([ ._-]?tv)?|plutotv)\\b",
+      "imageURL": "https://img.shields.io/badge/-Pluto%20TV-6B45C8?style=flat&labelColor=17191F",
+      "tagColor": "#00000000",
+      "borderColor": "#00000000",
+      "textColor": "#00000000",
+      "tagStyle": "filled and bordered",
+      "isEnabled": true,
+      "type": "filter"
     }
   ],
   "groups": [
