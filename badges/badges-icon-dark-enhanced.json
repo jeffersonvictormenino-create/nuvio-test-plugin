@@ -95,7 +95,7 @@
       "id": "res-360p",
       "groupId": "resolution",
       "name": "360p Low",
-      "pattern": "(?i)\\b(360p?|240p?|288p?|144p?)\\b",
+      "pattern": "(?i)\\b(360p?|640[ ._-]?x[ ._-]?360)\\b",
       "imageURL": "https://raw.githubusercontent.com/farizmohd70/FR-Badges/ffccb08c7e20fb08add40f9a544342061a5c6da7/Badges-Icon-Dark/res-360p.png",
       "tagColor": "#00000000",
       "borderColor": "#00000000",
