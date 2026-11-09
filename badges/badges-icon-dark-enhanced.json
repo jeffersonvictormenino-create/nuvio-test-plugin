@@ -118,19 +118,6 @@
       "type": "filter"
     },
     {
-      "id": "vid-3d",
-      "groupId": "3d-video-formats",
-      "name": "3D",
-      "pattern": "(?i)\\b(3d|hsbs|fsbs|sbs|half[ ._-]?sbs|full[ ._-]?sbs|hou|fou|tab|half[ ._-]?ou|full[ ._-]?ou|over[ ._-]?under|top[ ._-]?and[ ._-]?bottom|mvc)\\b",
-      "imageURL": "https://raw.githubusercontent.com/farizmohd70/FR-Badges/ffccb08c7e20fb08add40f9a544342061a5c6da7/Badges-Icon-Dark/vid-3d.png",
-      "tagColor": "#00000000",
-      "borderColor": "#00000000",
-      "textColor": "#00000000",
-      "tagStyle": "filled and bordered",
-      "isEnabled": true,
-      "type": "filter"
-    },
-    {
       "id": "vid-hfr",
       "groupId": "frame-rate",
       "name": "High Frame Rate",
@@ -1942,13 +1929,6 @@
     {
       "id": "resolution",
       "name": "Resolution",
-      "color": "#00000000",
-      "borderColor": "#00000000",
-      "isExpanded": true
-    },
-    {
-      "id": "3d-video-formats",
-      "name": "3D Formats",
       "color": "#00000000",
       "borderColor": "#00000000",
       "isExpanded": true
