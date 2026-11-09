@@ -470,7 +470,7 @@
     },
     {
       "id": "acodec-atmos",
-      "groupId": "audio-codec",
+      "groupId": "audio-format",
       "name": "Dolby Atmos",
       "pattern": "(?i)\\b(atmos|dolby[ ._-]?atmos)\\b",
       "imageURL": "https://raw.githubusercontent.com/farizmohd70/FR-Badges/ffccb08c7e20fb08add40f9a544342061a5c6da7/Badges-Icon-Dark/acodec-atmos.png",
@@ -496,7 +496,7 @@
     },
     {
       "id": "acodec-dtsx",
-      "groupId": "audio-codec",
+      "groupId": "audio-format",
       "name": "DTS:X",
       "pattern": "(?i)\\b(dts[ ._-]?x|dtsx)\\b",
       "imageURL": "https://raw.githubusercontent.com/farizmohd70/FR-Badges/ffccb08c7e20fb08add40f9a544342061a5c6da7/Badges-Icon-Dark/acodec-dtsx.png",
@@ -1044,7 +1044,7 @@
       "id": "src-cam",
       "groupId": "release-source",
       "name": "CAM / TS",
-      "pattern": "(?i)\\b(camrip|hdcam|cam|telesync|ts)\\b",
+      "pattern": "(?i)\\b(camrip|hdcam|cam|telesync)\\b",
       "imageURL": "https://raw.githubusercontent.com/farizmohd70/FR-Badges/ffccb08c7e20fb08add40f9a544342061a5c6da7/Badges-Icon-Dark/src-cam.png",
       "tagColor": "#00000000",
       "borderColor": "#00000000",
@@ -1146,9 +1146,9 @@
     },
     {
       "id": "flag-multi-audio",
-      "groupId": "audio-subs",
+      "groupId": "audio-tracks",
       "name": "Multi-Audio",
-      "pattern": "(?i)\\b(multi|multiaudio|multi[ ._-]?audio|multi[ ._-]?language|multiple[ ._-]?audio[ ._-]?tracks)\\b",
+      "pattern": "(?i)\\b(multi[ ._-]?audio|multiaudio|multi[ ._-]?language|multiple[ ._-]?audio[ ._-]?tracks)\\b",
       "imageURL": "https://raw.githubusercontent.com/farizmohd70/FR-Badges/ffccb08c7e20fb08add40f9a544342061a5c6da7/Badges-Icon-Dark/flag-multi-audio.png",
       "tagColor": "#00000000",
       "borderColor": "#00000000",
@@ -1159,9 +1159,9 @@
     },
     {
       "id": "flag-dual-audio",
-      "groupId": "audio-subs",
+      "groupId": "audio-tracks",
       "name": "Dual-Audio",
-      "pattern": "(?i)\\b(dual|dualaudio|dual[ ._-]?audio|two[ ._-]?audio[ ._-]?tracks)\\b",
+      "pattern": "(?i)\\b(dual[ ._-]?audio|dualaudio|two[ ._-]?audio[ ._-]?tracks)\\b",
       "imageURL": "https://raw.githubusercontent.com/farizmohd70/FR-Badges/ffccb08c7e20fb08add40f9a544342061a5c6da7/Badges-Icon-Dark/flag-dual-audio.png",
       "tagColor": "#00000000",
       "borderColor": "#00000000",
@@ -1172,7 +1172,7 @@
     },
     {
       "id": "flag-original",
-      "groupId": "audio-subs",
+      "groupId": "audio-tracks",
       "name": "Original Audio",
       "pattern": "(?i)\\b(original[ ._-]?audio|original[ ._-]?language|vo|vost)\\b",
       "imageURL": "https://raw.githubusercontent.com/farizmohd70/FR-Badges/ffccb08c7e20fb08add40f9a544342061a5c6da7/Badges-Icon-Dark/flag-original.png",
@@ -1185,7 +1185,7 @@
     },
     {
       "id": "flag-multi-sub",
-      "groupId": "audio-subs",
+      "groupId": "subtitle-features",
       "name": "Multi-Sub",
       "pattern": "(?i)\\b(multisub|multi[ ._-]?sub)\\b",
       "imageURL": "https://raw.githubusercontent.com/farizmohd70/FR-Badges/ffccb08c7e20fb08add40f9a544342061a5c6da7/Badges-Icon-Dark/flag-multi-sub.png",
@@ -1198,7 +1198,7 @@
     },
     {
       "id": "flag-subpack",
-      "groupId": "audio-subs",
+      "groupId": "subtitle-features",
       "name": "Subpack",
       "pattern": "(?i)\\b(subpack|multi[ ._-]?sub|multisub|subtitles[ ._-]?included)\\b",
       "imageURL": "https://raw.githubusercontent.com/farizmohd70/FR-Badges/ffccb08c7e20fb08add40f9a544342061a5c6da7/Badges-Icon-Dark/flag-subpack.png",
@@ -1211,7 +1211,7 @@
     },
     {
       "id": "flag-hardsub",
-      "groupId": "audio-subs",
+      "groupId": "subtitle-features",
       "name": "Hardcoded Subs",
       "pattern": "(?i)\\b(hardsub|hardsubbed|hard[ ._-]?coded[ ._-]?subs?)\\b",
       "imageURL": "https://raw.githubusercontent.com/farizmohd70/FR-Badges/ffccb08c7e20fb08add40f9a544342061a5c6da7/Badges-Icon-Dark/flag-hardsub.png",
@@ -1224,7 +1224,7 @@
     },
     {
       "id": "flag-cc",
-      "groupId": "audio-subs",
+      "groupId": "subtitle-features",
       "name": "Closed Captions",
       "pattern": "(?i)\\b(closed[ ._-]?captions?|sdh)\\b",
       "imageURL": "https://raw.githubusercontent.com/farizmohd70/FR-Badges/ffccb08c7e20fb08add40f9a544342061a5c6da7/Badges-Icon-Dark/flag-cc.png",
@@ -1237,7 +1237,7 @@
     },
     {
       "id": "flag-commentary",
-      "groupId": "audio-subs",
+      "groupId": "audio-accessibility",
       "name": "Commentary",
       "pattern": "(?i)\\b(commentary|audio[ ._-]?commentary)\\b",
       "imageURL": "https://raw.githubusercontent.com/farizmohd70/FR-Badges/ffccb08c7e20fb08add40f9a544342061a5c6da7/Badges-Icon-Dark/flag-commentary.png",
@@ -1250,7 +1250,7 @@
     },
     {
       "id": "flag-ad",
-      "groupId": "audio-subs",
+      "groupId": "audio-accessibility",
       "name": "Audio Description",
       "pattern": "(?i)\\b(audio[ ._-]?description|descriptive[ ._-]?audio|described[ ._-]?video)\\b",
       "imageURL": "https://raw.githubusercontent.com/farizmohd70/FR-Badges/ffccb08c7e20fb08add40f9a544342061a5c6da7/Badges-Icon-Dark/flag-ad.png",
@@ -2162,6 +2162,34 @@
     {
       "id": "languages",
       "name": "Languages",
+      "color": "#00000000",
+      "borderColor": "#00000000",
+      "isExpanded": true
+    },
+    {
+      "id": "audio-format",
+      "name": "Immersive Audio",
+      "color": "#00000000",
+      "borderColor": "#00000000",
+      "isExpanded": true
+    },
+    {
+      "id": "audio-tracks",
+      "name": "Audio Tracks",
+      "color": "#00000000",
+      "borderColor": "#00000000",
+      "isExpanded": true
+    },
+    {
+      "id": "subtitle-features",
+      "name": "Subtitle Features",
+      "color": "#00000000",
+      "borderColor": "#00000000",
+      "isExpanded": true
+    },
+    {
+      "id": "audio-accessibility",
+      "name": "Audio Accessibility",
       "color": "#00000000",
       "borderColor": "#00000000",
       "isExpanded": true
