@@ -2146,13 +2146,6 @@
       "isExpanded": true
     },
     {
-      "id": "audio-subs",
-      "name": "Audio & Subs",
-      "color": "#00000000",
-      "borderColor": "#00000000",
-      "isExpanded": true
-    },
-    {
       "id": "editions-cuts",
       "name": "Editions & Cuts",
       "color": "#00000000",
