@@ -6,26 +6,19 @@
     {
       "id": "teste",
       "name": "Nuvio Teste",
-      "description": "Primeiro provider de teste.",
+      "description": "Provider experimental para testes com filmes e séries.",
       "version": "1.0.0",
       "author": "Jefferson",
-      "supportedTypes": ["movie", "tv"],
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
       "filename": "providers/teste.js",
       "enabled": true,
-      "formats": ["mp4"],
-      "contentLanguage": ["pt-br"]
-    },
-    {
-      "id": "teste2",
-      "name": "Nuvio Teste 2",
-      "description": "Segundo provider de teste.",
-      "version": "1.0.0",
-      "author": "Jefferson",
-      "supportedTypes": ["movie", "tv"],
-      "filename": "providers/teste2.js",
-      "enabled": true,
-      "formats": ["mp4"],
-      "contentLanguage": ["pt-br"]
+      "formats": [
+        "mp4"
+      ]
     }
-  ]
+  ],
+  "description": "Repositório experimental de plugins JavaScript para o Nuvio."
 }
