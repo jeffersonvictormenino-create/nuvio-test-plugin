@@ -107,9 +107,9 @@
     {
       "id": "res-144p",
       "groupId": "resolution",
-      "name": "144p Low",
+      "name": "144p LOW",
       "pattern": "(?i)\\b(144p|256[ ._-]?x[ ._-]?144)\\b",
-      "imageURL": "https://raw.githubusercontent.com/jeffersonvictormenino-create/nuvio-test-plugin/main/badges/streaming/res-144p.svg",
+      "imageURL": "https://img.shields.io/badge/144p-LOW-7B8794.png?style=flat&labelColor=171F2D",
       "tagColor": "#00000000",
       "borderColor": "#00000000",
       "textColor": "#00000000",
@@ -1149,84 +1149,91 @@
       "groupId": "streaming-service",
       "name": "Netflix",
       "pattern": "(?i)\\b(nf|nflx|netflix|netflix[ ._-]?originals?)\\b",
-      "tagColor": "#E50914",
-      "borderColor": "#E50914",
-      "textColor": "#FFFFFF",
+      "tagColor": "#00000000",
+      "borderColor": "#00000000",
+      "textColor": "#00000000",
       "tagStyle": "filled and bordered",
       "isEnabled": true,
-      "type": "filter"
+      "type": "filter",
+      "imageURL": "https://img.shields.io/badge/Netflix-E50914.png?style=flat&labelColor=17191F"
     },
     {
       "id": "vod-amazon",
       "groupId": "streaming-service",
       "name": "Prime Video",
       "pattern": "(?i)\\b(amzn|amazon([ ._-]?prime)?|prime[ ._-]?video|primevideo)\\b",
-      "tagColor": "#00A8E0",
-      "borderColor": "#00A8E0",
-      "textColor": "#FFFFFF",
+      "tagColor": "#00000000",
+      "borderColor": "#00000000",
+      "textColor": "#00000000",
       "tagStyle": "filled and bordered",
       "isEnabled": true,
-      "type": "filter"
+      "type": "filter",
+      "imageURL": "https://img.shields.io/badge/Prime_Video-00A8E0.png?style=flat&labelColor=17191F"
     },
     {
       "id": "vod-appletv",
       "groupId": "streaming-service",
       "name": "Apple TV+",
       "pattern": "(?i)\\b(atvp|aptv|apple[ ._-]?tv([ ._-]?plus)?|appletvplus)\\b|apple[ ._-]?tv\\+",
-      "tagColor": "#68707D",
-      "borderColor": "#68707D",
-      "textColor": "#FFFFFF",
+      "tagColor": "#00000000",
+      "borderColor": "#00000000",
+      "textColor": "#00000000",
       "tagStyle": "filled and bordered",
       "isEnabled": true,
-      "type": "filter"
+      "type": "filter",
+      "imageURL": "https://img.shields.io/badge/Apple_TV%2B-68707D.png?style=flat&labelColor=17191F"
     },
     {
       "id": "vod-disney",
       "groupId": "streaming-service",
       "name": "Disney+",
       "pattern": "(?i)\\b(dsnp|disney([ ._-]?plus)?|disneyplus)\\b|disney\\+",
-      "tagColor": "#1769FF",
-      "borderColor": "#1769FF",
-      "textColor": "#FFFFFF",
+      "tagColor": "#00000000",
+      "borderColor": "#00000000",
+      "textColor": "#00000000",
       "tagStyle": "filled and bordered",
       "isEnabled": true,
-      "type": "filter"
+      "type": "filter",
+      "imageURL": "https://img.shields.io/badge/Disney%2B-1769FF.png?style=flat&labelColor=17191F"
     },
     {
       "id": "vod-max",
       "groupId": "streaming-service",
       "name": "Max",
       "pattern": "(?i)\\b(hbo[ ._-]?max|hbomax|max([ ._-]?originals?)?)\\b",
-      "tagColor": "#6545C8",
-      "borderColor": "#6545C8",
-      "textColor": "#FFFFFF",
+      "tagColor": "#00000000",
+      "borderColor": "#00000000",
+      "textColor": "#00000000",
       "tagStyle": "filled and bordered",
       "isEnabled": true,
-      "type": "filter"
+      "type": "filter",
+      "imageURL": "https://img.shields.io/badge/Max-6545C8.png?style=flat&labelColor=17191F"
     },
     {
       "id": "vod-paramount",
       "groupId": "streaming-service",
       "name": "Paramount+",
       "pattern": "(?i)\\b(pmtp|paramount([ ._-]?plus)?|paramountplus)\\b|paramount\\+",
-      "tagColor": "#1769D2",
-      "borderColor": "#1769D2",
-      "textColor": "#FFFFFF",
+      "tagColor": "#00000000",
+      "borderColor": "#00000000",
+      "textColor": "#00000000",
       "tagStyle": "filled and bordered",
       "isEnabled": true,
-      "type": "filter"
+      "type": "filter",
+      "imageURL": "https://img.shields.io/badge/Paramount%2B-1769D2.png?style=flat&labelColor=17191F"
     },
     {
       "id": "vod-crunchyroll",
       "groupId": "streaming-service",
       "name": "Crunchyroll",
       "pattern": "(?i)\\b(cr|crunchy[ ._-]?roll|crunchyroll|crunchyroll[ ._-]?originals?)\\b",
-      "tagColor": "#F47521",
-      "borderColor": "#F47521",
-      "textColor": "#FFFFFF",
+      "tagColor": "#00000000",
+      "borderColor": "#00000000",
+      "textColor": "#00000000",
       "tagStyle": "filled and bordered",
       "isEnabled": true,
-      "type": "filter"
+      "type": "filter",
+      "imageURL": "https://img.shields.io/badge/Crunchyroll-F47521.png?style=flat&labelColor=17191F"
     },
     {
       "id": "flag-multi-audio",
@@ -2027,11 +2034,12 @@
       "name": "Globoplay",
       "pattern": "(?i)\\b(globoplay|globo[ ._-]?play|globo[ ._-]?play[ ._-]?originals?)\\b",
       "isEnabled": true,
-      "tagColor": "#D99B20",
+      "tagColor": "#00000000",
       "tagStyle": "filled and bordered",
-      "textColor": "#FFFFFF",
-      "borderColor": "#D99B20",
-      "type": "filter"
+      "textColor": "#00000000",
+      "borderColor": "#00000000",
+      "type": "filter",
+      "imageURL": "https://img.shields.io/badge/Globoplay-D99B20.png?style=flat&labelColor=17191F"
     },
     {
       "id": "vod-telecine",
@@ -2039,11 +2047,12 @@
       "name": "Telecine",
       "pattern": "(?i)\\b(telecine|telecine[ ._-]?(play|on[ ._-]?demand))\\b",
       "isEnabled": true,
-      "tagColor": "#B99528",
+      "tagColor": "#00000000",
       "tagStyle": "filled and bordered",
-      "textColor": "#FFFFFF",
-      "borderColor": "#B99528",
-      "type": "filter"
+      "textColor": "#00000000",
+      "borderColor": "#00000000",
+      "type": "filter",
+      "imageURL": "https://img.shields.io/badge/Telecine-B99528.png?style=flat&labelColor=17191F"
     },
     {
       "id": "vod-claro",
@@ -2051,23 +2060,25 @@
       "name": "Claro tv+",
       "pattern": "(?i)\\b(claro[ ._-]?tv([ ._-]?plus)?|clarotv([ ._-]?plus)?|claro[ ._-]?video|clarovideo)\\b|claro[ ._-]?tv\\+",
       "isEnabled": true,
-      "tagColor": "#C90B20",
+      "tagColor": "#00000000",
       "tagStyle": "filled and bordered",
-      "textColor": "#FFFFFF",
-      "borderColor": "#C90B20",
-      "type": "filter"
+      "textColor": "#00000000",
+      "borderColor": "#00000000",
+      "type": "filter",
+      "imageURL": "https://img.shields.io/badge/Claro_tv%2B-C90B20.png?style=flat&labelColor=17191F"
     },
     {
       "id": "vod-plutotv",
       "groupId": "streaming-service",
       "name": "Pluto TV",
       "pattern": "(?i)\\b(pluto([ ._-]?tv)?|plutotv)\\b",
-      "tagColor": "#6B45C8",
-      "borderColor": "#6B45C8",
-      "textColor": "#FFFFFF",
+      "tagColor": "#00000000",
+      "borderColor": "#00000000",
+      "textColor": "#00000000",
       "tagStyle": "filled and bordered",
       "isEnabled": true,
-      "type": "filter"
+      "type": "filter",
+      "imageURL": "https://img.shields.io/badge/Pluto_TV-6B45C8.png?style=flat&labelColor=17191F"
     }
   ],
   "groups": [
