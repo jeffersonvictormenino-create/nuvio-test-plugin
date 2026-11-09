@@ -2039,7 +2039,7 @@
       "textColor": "#FFFFFF",
       "borderColor": "#E59A16",
       "type": "filter",
-      "imageURL": "https://img.shields.io/badge/-Globoplay-E59A16?style=flat&labelColor=17191F"
+      "imageURL": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Globoplay_logo.svg"
     },
     {
       "id": "vod-telecine",
@@ -2052,7 +2052,7 @@
       "textColor": "#FFFFFF",
       "borderColor": "#C7A12B",
       "type": "filter",
-      "imageURL": "https://img.shields.io/badge/-Telecine-C7A12B?style=flat&labelColor=17191F"
+      "imageURL": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Rede_Telecine_vertical_logo.svg"
     },
     {
       "id": "vod-claro",
@@ -2065,7 +2065,7 @@
       "textColor": "#FFFFFF",
       "borderColor": "#C90B20",
       "type": "filter",
-      "imageURL": "https://img.shields.io/badge/-Claro%20tv%2B-C90B20?style=flat&labelColor=17191F"
+      "imageURL": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Claro_TV%2B_logo_%28black%29.svg"
     },
     {
       "id": "vod-plutotv",
@@ -2078,7 +2078,7 @@
       "tagStyle": "filled",
       "isEnabled": true,
       "type": "filter",
-      "imageURL": "https://img.shields.io/badge/-Pluto%20TV-6B45C8?style=flat&labelColor=17191F"
+      "imageURL": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Pluto_TV_logo_2024.svg"
     },
     {
       "id": "studio-warner",
