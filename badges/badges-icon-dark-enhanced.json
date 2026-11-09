@@ -1155,7 +1155,7 @@
       "tagStyle": "filled",
       "isEnabled": true,
       "type": "filter",
-      "imageURL": "https://img.shields.io/badge/-Netflix-E50914?style=flat&labelColor=17191F"
+      "imageURL": "https://raster.shields.io/badge/-Netflix-E50914?style=flat&labelColor=17191F"
     },
     {
       "id": "vod-amazon",
@@ -1168,7 +1168,7 @@
       "tagStyle": "filled",
       "isEnabled": true,
       "type": "filter",
-      "imageURL": "https://img.shields.io/badge/-Prime%20Video-00A8E0?style=flat&labelColor=17191F"
+      "imageURL": "https://raster.shields.io/badge/-Prime%20Video-00A8E0?style=flat&labelColor=17191F"
     },
     {
       "id": "vod-appletv",
@@ -1181,7 +1181,7 @@
       "tagStyle": "filled",
       "isEnabled": true,
       "type": "filter",
-      "imageURL": "https://img.shields.io/badge/-Apple%20TV%2B-68707D?style=flat&labelColor=17191F"
+      "imageURL": "https://raster.shields.io/badge/-Apple%20TV%2B-68707D?style=flat&labelColor=17191F"
     },
     {
       "id": "vod-disney",
@@ -1194,7 +1194,7 @@
       "tagStyle": "filled",
       "isEnabled": true,
       "type": "filter",
-      "imageURL": "https://img.shields.io/badge/-Disney%2B-1769FF?style=flat&labelColor=17191F"
+      "imageURL": "https://raster.shields.io/badge/-Disney%2B-1769FF?style=flat&labelColor=17191F"
     },
     {
       "id": "vod-max",
@@ -1207,7 +1207,7 @@
       "tagStyle": "filled",
       "isEnabled": true,
       "type": "filter",
-      "imageURL": "https://img.shields.io/badge/-Max-6A4CFF?style=flat&labelColor=17191F"
+      "imageURL": "https://raster.shields.io/badge/-Max-6A4CFF?style=flat&labelColor=17191F"
     },
     {
       "id": "vod-paramount",
@@ -1220,7 +1220,7 @@
       "tagStyle": "filled",
       "isEnabled": true,
       "type": "filter",
-      "imageURL": "https://img.shields.io/badge/-Paramount%2B-0064FF?style=flat&labelColor=17191F"
+      "imageURL": "https://raster.shields.io/badge/-Paramount%2B-0064FF?style=flat&labelColor=17191F"
     },
     {
       "id": "vod-crunchyroll",
@@ -1233,7 +1233,7 @@
       "tagStyle": "filled",
       "isEnabled": true,
       "type": "filter",
-      "imageURL": "https://img.shields.io/badge/-Crunchyroll-F47521?style=flat&labelColor=17191F"
+      "imageURL": "https://raster.shields.io/badge/-Crunchyroll-F47521?style=flat&labelColor=17191F"
     },
     {
       "id": "flag-multi-audio",
@@ -2039,7 +2039,7 @@
       "textColor": "#FFFFFF",
       "borderColor": "#E59A16",
       "type": "filter",
-      "imageURL": "https://img.shields.io/badge/-Globoplay-E59A16?style=flat&labelColor=17191F"
+      "imageURL": "https://raster.shields.io/badge/-Globoplay-E59A16?style=flat&labelColor=17191F"
     },
     {
       "id": "vod-telecine",
@@ -2052,7 +2052,7 @@
       "textColor": "#FFFFFF",
       "borderColor": "#C7A12B",
       "type": "filter",
-      "imageURL": "https://img.shields.io/badge/-Telecine-C7A12B?style=flat&labelColor=17191F"
+      "imageURL": "https://raster.shields.io/badge/-Telecine-C7A12B?style=flat&labelColor=17191F"
     },
     {
       "id": "vod-claro",
@@ -2065,7 +2065,7 @@
       "textColor": "#FFFFFF",
       "borderColor": "#C90B20",
       "type": "filter",
-      "imageURL": "https://img.shields.io/badge/-Claro%20tv%2B-C90B20?style=flat&labelColor=17191F"
+      "imageURL": "https://raster.shields.io/badge/-Claro%20tv%2B-C90B20?style=flat&labelColor=17191F"
     },
     {
       "id": "vod-plutotv",
@@ -2078,7 +2078,150 @@
       "tagStyle": "filled",
       "isEnabled": true,
       "type": "filter",
-      "imageURL": "https://img.shields.io/badge/-Pluto%20TV-6B45C8?style=flat&labelColor=17191F"
+      "imageURL": "https://raster.shields.io/badge/-Pluto%20TV-6B45C8?style=flat&labelColor=17191F"
+    },
+    {
+      "id": "studio-warner",
+      "groupId": "production-studio",
+      "name": "Warner Bros.",
+      "pattern": "(?i)\\b(warner([ ._-]?bros?([ ._-]?pictures)?)?|warner[ ._-]?bros[ ._-]?discovery)\\b",
+      "tagColor": "#17191F",
+      "borderColor": "#00A7E1",
+      "textColor": "#FFFFFF",
+      "tagStyle": "filled",
+      "isEnabled": true,
+      "type": "filter",
+      "imageURL": "https://raster.shields.io/badge/-Warner%20Bros.-00A7E1?style=flat&labelColor=17191F"
+    },
+    {
+      "id": "studio-universal",
+      "groupId": "production-studio",
+      "name": "Universal Pictures",
+      "pattern": "(?i)\\b(universal([ ._-]?pictures)?)\\b",
+      "tagColor": "#17191F",
+      "borderColor": "#1B4D9B",
+      "textColor": "#FFFFFF",
+      "tagStyle": "filled",
+      "isEnabled": true,
+      "type": "filter",
+      "imageURL": "https://raster.shields.io/badge/-Universal%20Pictures-1B4D9B?style=flat&labelColor=17191F"
+    },
+    {
+      "id": "studio-sony",
+      "groupId": "production-studio",
+      "name": "Sony Pictures",
+      "pattern": "(?i)\\b(sony([ ._-]?pictures|[ ._-]?entertainment)?|columbia[ ._-]?pictures)\\b",
+      "tagColor": "#17191F",
+      "borderColor": "#2D5DA8",
+      "textColor": "#FFFFFF",
+      "tagStyle": "filled",
+      "isEnabled": true,
+      "type": "filter",
+      "imageURL": "https://raster.shields.io/badge/-Sony%20Pictures-2D5DA8?style=flat&labelColor=17191F"
+    },
+    {
+      "id": "studio-paramount",
+      "groupId": "production-studio",
+      "name": "Paramount Pictures",
+      "pattern": "(?i)\\b(paramount[ ._-]?pictures)\\b",
+      "tagColor": "#17191F",
+      "borderColor": "#0064FF",
+      "textColor": "#FFFFFF",
+      "tagStyle": "filled",
+      "isEnabled": true,
+      "type": "filter",
+      "imageURL": "https://raster.shields.io/badge/-Paramount%20Pictures-0064FF?style=flat&labelColor=17191F"
+    },
+    {
+      "id": "studio-20th-century",
+      "groupId": "production-studio",
+      "name": "20th Century Studios",
+      "pattern": "(?i)\\b(20th([ ._-]?century)?([ ._-]?studios?)?|twentieth[ ._-]?century([ ._-]?studios?)?)\\b",
+      "tagColor": "#17191F",
+      "borderColor": "#555555",
+      "textColor": "#FFFFFF",
+      "tagStyle": "filled",
+      "isEnabled": true,
+      "type": "filter",
+      "imageURL": "https://raster.shields.io/badge/-20th%20Century%20Studios-555555?style=flat&labelColor=17191F"
+    },
+    {
+      "id": "studio-disney",
+      "groupId": "production-studio",
+      "name": "Disney",
+      "pattern": "(?i)\\b(disney([ ._-]?studios?|[ ._-]?pictures)?)\\b",
+      "tagColor": "#17191F",
+      "borderColor": "#1769FF",
+      "textColor": "#FFFFFF",
+      "tagStyle": "filled",
+      "isEnabled": true,
+      "type": "filter",
+      "imageURL": "https://raster.shields.io/badge/-Disney-1769FF?style=flat&labelColor=17191F"
+    },
+    {
+      "id": "studio-lionsgate",
+      "groupId": "production-studio",
+      "name": "Lionsgate",
+      "pattern": "(?i)\\b(lions[ ._-]?gate|lionsgate)\\b",
+      "tagColor": "#17191F",
+      "borderColor": "#B9A36A",
+      "textColor": "#FFFFFF",
+      "tagStyle": "filled",
+      "isEnabled": true,
+      "type": "filter",
+      "imageURL": "https://raster.shields.io/badge/-Lionsgate-B9A36A?style=flat&labelColor=17191F"
+    },
+    {
+      "id": "studio-a24",
+      "groupId": "production-studio",
+      "name": "A24",
+      "pattern": "(?i)\\ba24\\b",
+      "tagColor": "#17191F",
+      "borderColor": "#111111",
+      "textColor": "#FFFFFF",
+      "tagStyle": "filled",
+      "isEnabled": true,
+      "type": "filter",
+      "imageURL": "https://raster.shields.io/badge/-A24-111111?style=flat&labelColor=17191F"
+    },
+    {
+      "id": "studio-mgm",
+      "groupId": "production-studio",
+      "name": "MGM",
+      "pattern": "(?i)\\b(mgm|metro[ ._-]?goldwyn[ ._-]?mayer)\\b",
+      "tagColor": "#17191F",
+      "borderColor": "#B99A45",
+      "textColor": "#FFFFFF",
+      "tagStyle": "filled",
+      "isEnabled": true,
+      "type": "filter",
+      "imageURL": "https://raster.shields.io/badge/-MGM-B99A45?style=flat&labelColor=17191F"
+    },
+    {
+      "id": "studio-globo-filmes",
+      "groupId": "production-studio",
+      "name": "Globo Filmes",
+      "pattern": "(?i)\\b(globo[ ._-]?filmes?)\\b",
+      "tagColor": "#17191F",
+      "borderColor": "#E59A16",
+      "textColor": "#FFFFFF",
+      "tagStyle": "filled",
+      "isEnabled": true,
+      "type": "filter",
+      "imageURL": "https://raster.shields.io/badge/-Globo%20Filmes-E59A16?style=flat&labelColor=17191F"
+    },
+    {
+      "id": "studio-o2-filmes",
+      "groupId": "production-studio",
+      "name": "O2 Filmes",
+      "pattern": "(?i)\\b(o2[ ._-]?filmes?)\\b",
+      "tagColor": "#17191F",
+      "borderColor": "#E34C3B",
+      "textColor": "#FFFFFF",
+      "tagStyle": "filled",
+      "isEnabled": true,
+      "type": "filter",
+      "imageURL": "https://raster.shields.io/badge/-O2%20Filmes-E34C3B?style=flat&labelColor=17191F"
     }
   ],
   "groups": [
@@ -2141,6 +2284,13 @@
     {
       "id": "streaming-service",
       "name": "Streaming Service",
+      "color": "#00000000",
+      "borderColor": "#00000000",
+      "isExpanded": true
+    },
+    {
+      "id": "production-studio",
+      "name": "Production Studios",
       "color": "#00000000",
       "borderColor": "#00000000",
       "isExpanded": true
